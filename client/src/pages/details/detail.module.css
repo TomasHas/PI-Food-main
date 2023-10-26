@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-content: space-around;
+  padding: 20px;
+
+  /* align-items: stretch; */
+  /* background-color: tomato; */
+}
+.left {
+  /* display: flex; */
+
+  width: 40%;
+}
+.right {
+  width: 60%;
+}
+.card {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: blueviolet;
+}
+
+/* height: 100%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background-color: blueviolet;
+text-align: left;
+padding: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px; */
+
+.img {
+  width: 100%;
+
+  /* border: 6px solid white; */
+  border-radius: 20px;
+  justify-content: space-between;
+  border-color: aqua;
+  border: 20px;
+}
+.recipeNameTitle {
+  color: white;
+  font-size: xx-large;
+}
+.shortInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.HSContainer {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.healthScoreTitle {
+  color: gray;
+  font-size: x-large;
+}
+.healthScoreNumber {
+  font-size: 60px;
+  font-weight: bolder;
+  color: greenyellow;
+}
+
+.dietsContainer {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.dietsTitle {
+  color: gray;
+  font-size: x-large;
+}
+.diets {
+  list-style: none;
+  font-size: large;
+  color: blueviolet;
+}
+.summaryPrepContainer {
+  height: 100%;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: blueviolet;
+  text-align: left;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.summary {
+  margin-bottom: 30px;
+  /* height: 50%; */
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.prep {
+  /* height: 50%; */
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.h4White {
+  margin: 2px;
+  padding: 1px;
+  font-weight: 500;
+  color: blueviolet;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+h4 {
+  margin: 2px;
+  padding: 1px;
+  font-weight: 500;
+}
+h2 {
+  margin: 6px;
+  padding: 1px;
+  color: green;
+  font-size: large;
+}
+
+p {
+  margin: 5px;
+  padding: 1px;
+}

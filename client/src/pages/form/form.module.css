@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 100%;
+  flex-direction: row;
+}
+
+form {
+  background-color: white;
+  flex-direction: column;
+  padding: 0px 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  /* background-color: black; */
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.stepsButton {
+  width: 280px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  /* font-weight: bold; */
+  font-size: medium;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.submitButton {
+  width: 280px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.diets {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  width: 280px;
+}
+
+.input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  width: 249px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+p {
+  margin-top: -10px;
+  color: red;
+  font-size: small;
+}
+
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  /* background-color: tomato; */
+  /* color: tomato; */
+}

@@ -1,0 +1,46 @@
+.body {
+  /* background-image: url("C:\Users\Tomas\Documents\HENRY\PI-Countries-main\PI-Countries-main\client\src\images\countries.png"); */
+}
+
+.bg {
+  /* background-image: url(../../images/countries.png); */
+  /* background-image: url("C:\Users\Tomas\Documents\HENRY\PI-Food-main\client\src\images\cooking.png"); */
+  height: 95vh;
+  margin-top: 70px;
+  margin-left: 60px;
+  font-size: 50px;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  /* background-origin: border-box; */
+
+  /* background-attachment: fixed; */
+}
+
+.button {
+  width: 280px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.title {
+  width: 280px;
+  height: 50px;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.h1 {
+  color: white;
+}
