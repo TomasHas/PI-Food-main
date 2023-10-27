@@ -1,0 +1,35 @@
+.center {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/* .btn {
+  } */
+
+.btn {
+  display: inline-block;
+  color: blueviolet;
+  /* float: left; */
+  padding: 8px 16px;
+  text-decoration: none;
+  /* transition: background-color 1 s; */
+  border: 1px solid blueviolet;
+  margin: 0 4px;
+}
+
+.btn:active {
+  background-color: blueviolet;
+  color: white;
+  /* border: 1px solid #4caf50; */
+}
+
+.btn:hover:not(.active) {
+  background-color: blueviolet;
+  color: white;
+  /* font-weight: bold; */
+}
